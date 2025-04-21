@@ -1,0 +1,12 @@
+door shukri_salary = 300
+door shukri_gradYear = 2021
+door currentYear = 2025
+
+qor("Financial status check:")
+haddii (shukri_salary_salary > 4000 && (currentYear - shukri_gradYear_gradYear) >= 5) {
+    qor("Shukri has both a good salary and good experience.")
+} haddii_kale (shukri_salary > 4000 || (currentYear - shukri_gradYear) >= 5) {
+    qor("Shukri has either a good salary or good experience.")
+} haddii_kalena {
+    qor("Shukri needs more experience or a higher salary.")
+}
